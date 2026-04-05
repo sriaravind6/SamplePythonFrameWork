@@ -1,0 +1,41 @@
+# ── Python ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ── Virtual Environments ──────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Selenium / WebDriver ──────────────────────
+*.log
+geckodriver.log
+chromedriver.log
+
+# ── Test Artifacts ────────────────────────────
+screenshots/
+logs/
+allure-report/
+
+# Keep the reports/ folder tracked but ignore its contents
+reports/*
+!reports/.gitkeep
+
+# ── IDE / OS ──────────────────────────────────
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ── Environment variables ─────────────────────
+.env
